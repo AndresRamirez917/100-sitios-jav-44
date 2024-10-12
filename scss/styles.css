@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html, body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: auto;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 2em 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+}
+
+#mainheader {
+  color: red;
+}
+#mainheader .navbar {
+  margin-bottom: 2em;
+}
+#mainheader .navbar .logo {
+  width: 70px;
+  float: left;
+  margin-top: 2em;
+}
+#mainheader .navbar ul {
+  float: right;
+  margin-top: 2em;
+}
+#mainheader .navbar ul li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+#showcase {
+  text-align: center;
+  background: url("/img/showcase.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#showcase .button-1 {
+  margin-top: 20em;
+}
+
+#projects h2 {
+  text-align: center;
+}
+#projects .projects-row {
+  display: flex;
+}
+#projects .projects-row .box img {
+  width: 100%;
+}
+
+#about h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+#about .about-row {
+  display: flex;
+}
+#about .about-row .about-experience {
+  width: 100%;
+  margin-left: 50px;
+}
+#about .about-row .about-experience h2 {
+  text-align: left;
+}
+#about .about-row .about-me {
+  width: 100%;
+  width: 150%;
+}
+#about .about-row .about-me {
+  width: 100%;
+}
+
+#contact h2 {
+  text-align: center;
+}
+#contact .contact-row {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  gap: 250px;
+}
+#contact .contact-row .card img {
+  width: 30%;
+}
+
+#footer {
+  text-align: center;
+  margin: 3em;
+}/*# sourceMappingURL=styles.css.map */

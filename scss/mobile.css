@@ -1,0 +1,37 @@
+#mainheader .navbar .logo {
+  float: none;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+#mainheader .navbar ul {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader .navbar ul li {
+  display: inline-block;
+  margin: 1em;
+}
+
+#projects .projects-row {
+  display: block;
+}
+
+#about .about-row {
+  display: block;
+}
+#about .about-row .about-experience {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+#about .about-row .about-experience h2 {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+#contact .contact-row {
+  display: block;
+}/*# sourceMappingURL=mobile.css.map */
