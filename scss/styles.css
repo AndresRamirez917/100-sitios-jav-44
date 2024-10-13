@@ -126,11 +126,11 @@ form .form-group {
 form .form-control {
   display: block;
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 10px 1rem 10px;
   border-radius: 4px;
 }
 form button {
-  width: 100%;
+  width: 102%;
   background: black;
   color: #fff;
   padding: 1rem;
@@ -138,6 +138,20 @@ form button {
   cursor: pointer;
   border: none;
   margin-bottom: 2rem;
+}
+
+::-moz-placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
 }
 
 #formulario {
