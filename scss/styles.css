@@ -68,6 +68,10 @@ h2 {
   margin-top: 20em;
 }
 
+#projects {
+  width: 75%;
+  margin: 0 auto;
+}
 #projects h2 {
   text-align: center;
 }
@@ -101,6 +105,11 @@ h2 {
   width: 100%;
 }
 
+#acordeon {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
 #contact h2 {
   text-align: center;
 }
@@ -112,6 +121,7 @@ h2 {
 }
 #contact .contact-row .card img {
   width: 30%;
+  border-radius: 50%;
 }
 
 #footer {

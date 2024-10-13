@@ -87,12 +87,14 @@ color: red;
 
 //projects
 #projects {
-
+    width: 75%;
+    margin: 0 auto;
     h2 {
         text-align: center;
     }
 
     .projects-row {
+       
         display: flex;
 
         .box {
@@ -147,6 +149,18 @@ color: red;
     }
 }
 
+//acordeon
+#acordeon {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    .container {
+        .acordeon-details {
+
+        }
+    }
+}
+
 //contact
 #contact {
 
@@ -166,6 +180,7 @@ color: red;
             img {
 
                 width: 30%;
+                border-radius: 50%;
             }
         }
     }
