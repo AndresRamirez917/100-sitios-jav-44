@@ -110,6 +110,44 @@ h2 {
   margin: 0 auto;
   text-align: center;
 }
+#acordeon .container .acordeon-details {
+  color: red;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 4px;
+}
+form button {
+  width: 100%;
+  background: black;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+#formulario {
+  width: 75%;
+  margin: 0 auto;
+}
+#formulario .container form .flex-box-1 {
+  flex: 1;
+}
+
 #contact h2 {
   text-align: center;
 }
