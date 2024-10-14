@@ -40,6 +40,49 @@ async function getData() {
     });
 }
 
+const btn_validar = document.getElementById('btn-validar').onclick = (e) => {
+    e.preventDefault();
+    const nombre = document.getElementById('nombre');
+    const email = document.getElementById('email');
+    const fecha = document.getElementById('fecha');
+    const hora = document.getElementById('hora');
+    const mensaje = document.getElementById('mensaje');
+    const arr = [];
+    const messageArr = ["Nombre", "Email", "Fecha", "Hora", "Mensaje"];
+    arr.push(nombre, email, fecha, hora, mensaje);
+    for(i = 0; i < arr.length; i++){
+        if(arr[i].value == ""){
+            swal({
+                title: `El campo ${messageArr[i]} no puede estar vacío`,
+                icon: "error",
+                 })
+                 return false;
+        }
+    }
+    if(!emailValido(email)){
+        swal({
+            title: `El campo ${messageArr[1]} no tiene el formato adecuado`,
+            icon: "error",
+             })
+             return false;
+    }
+    swal({
+        title: `Los datos fueron enviado satisfactoriamente`,
+        icon: "success",
+         })
+         nombre.value = "";
+         email.value = "";
+         fecha.value = "";
+         hora.value = "";
+         mensaje.value = ""
+    return true;
+
+}
+
+const emailValido = (email) => {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)
+}
+
 getData()
 
 {/* <img src="${characterArr[randIndex][10][1]}" alt=""> */}
